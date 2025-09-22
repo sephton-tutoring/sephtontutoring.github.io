@@ -1,0 +1,62 @@
+
+.section {
+  display:block;
+  height:400px;
+}
+
+.image {
+  float:left;
+  width:50%;
+  height:100%;
+}
+
+.video-wrapper {
+  position:relative;
+  padding-bottom:56.25%;
+}
+
+.worksheet-wrapper {
+  margin: auto;
+  position: relative;
+  padding-bottom:56.25%;
+}
+
+.halfimage {
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+iframe {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width:100%;
+  height:100%;
+}
+
+.halfimage:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.5); 
+}
+
+
+@media screen and (max-width:800px) { 
+  .image, .page-container {
+    width:100%;
+  }
+
+  .worksheet-wrapper, .video-wrapper {
+    width:100%;
+  }
+
+
+  #myUL {
+    padding:0;
+  }
+}

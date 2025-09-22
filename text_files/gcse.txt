@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sephton Tutoring: Chemistry and Maths Online Tutoring and Resources</title>
+<meta name="description" content="Online Tutoring and Resources">
+<meta name="keywords" content="Tutoring, Chemistry, Maths, Resources, Dr Sarah Sephton, Sephton, Home">
+<meta name="author" content="Katherine Sephton">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<link rel="stylesheet" type="text/css" href="searchbar.css" />
+<link rel="stylesheet" type="text/css" href="video.css" />
+<link rel="stylesheet" type="text/css" href="footer.css" />
+
+<script type="text/javascript" src="navresponsive.js"></script>
+<script type="text/javascript" src="searchresponsive.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,700&family=Lora:wght@500&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+<style>
+body {margin:0;font-family: 'Lato', sans-serif; font-size: 20px;}
+
+.page-container {
+  width:70%;
+  margin:auto;
+  padding-top:35px;
+}
+
+.image {
+  padding-right:20px;
+}
+
+</style>
+
+</head>
+<body>
+
+
+<div class="topnav" id="myTopnav">
+    <a href="/" class="logo"><img class="nav-logo" src="STLogo.png" alt="Sephton Tutoring Logo"></a>
+    <a href="javascript:void(0);" style="font-size:20px;" class="icon" onclick="navFunction()">&#9776;</a>
+    <ul id="navbar">
+        <li><a href="/" class="active">HOME</a></li>
+        <li class="dropdown"><a href="resources.htm" class="dropbtn">RESOURCES</a>
+            <ul class="dropdown-content">
+                <li><a href="chemistry.htm">Chemistry</a></li>
+                <li><a href="maths.htm">Maths</a></li>
+            </ul>
+        </li>
+        <li><a href="contact.htm">CONTACT</a></li>
+    </ul>
+</div>
+
+
+
+
+<div id="page" class="page-container">
+<input type="text" id="myInput" onkeyup="searchFunction()" placeholder="Search...">
+
+
+<ul id="myUL">
+  <li>
+    <div id="What is a mole?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/pUMYa-PfMCk" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+      
+  <li>
+    <div id="What is an intermolecular force?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/5wtxBnpwjC4" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="What is a metallic bond?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/SGIIVwWkaKs" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>      
+    <div id="What is a redox reaction?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/3k_sh2rkYDQ" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="What is a electrolysis" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/1V5HW5ENgCI" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>      
+    <div id="What is an ionic bond?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/KFGoXJqoBuo" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="What is a salt?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/IJrbzg0mMDM" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+      
+  <li>
+    <div id="What is a chemical structure?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/Bh_NJgoyllg" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="What is an ionic equation?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/Wv2Dc5O4zls" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+  
+  <li>    
+    <div id="What is a pH?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/l7fZU_gT-Dg" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="What is an acid, an alkali and a base?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/rKi1NzcmTYk" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>      
+    <div id="What is a covalent bond?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/aJKVBdrw40I" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="What is a neutralisation reaction?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/ZVxJWIoCpx8" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>      
+    <div id="What is an alkane and alkene?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/Net3lukoMaU" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="What is an atom and an ion?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/kS_6UZRoXm4" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+   
+  <li>   
+    <div id="What is the history of the Earth’s atmosphere?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/4ogOOUs9gpY" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="What is cracking?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/PIfYeGLE26o" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+  
+  <li>    
+    <div id="What is combustion?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/94sJDhJIrVA" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="How is equilibrium?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/qCoSVvzpvUg" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>      
+    <div id="How is relative atomic mass calculated?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/dAnth4Ne6_8" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="How is the percentage by mass calculated?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/HMnk9OcgjWU" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>      
+    <div id="How are chemical formulae worked out?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/3Vunjt6d99Y" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="How is relative formula mass calculated?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/_FAExqrtbgo" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>      
+    <div id="How is a reaction profile drawn?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/lsstFVZcJZg" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="How has the periodic table developed?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/gdmqW9jxsrI" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+</ul>
+
+</div>
+
+
+<div class="footer">
+  <div class="fourth-footer">
+    <ul class="footer-list">
+      <li class="footer-logotext"><img class="footer-logo" src="logo_white.png" alt="Logo">SephtonTutoring</li>
+      <li class="footer-contact"><img src="chem_small.png" alt="chemistry" class="contact-icon">sarah@sephtontutoring.com</li>
+      <li class="footer-contact"><img src="maths_small.png" alt="maths" class="contact-icon">katherine@sephtontutoring.com</li>
+      <li class="footer-contact"><img src="phone_white.png" alt="phone" class="contact-icon">+44 (0)7512 803 733</li>
+    </ul>
+  </div>
+
+  <div class="fourth-footer">
+    <ul class="footer-list">
+      <li class="ital"><a href="/">Home</a></li>
+      <li class="ital"><a href="contact.htm">FAQs</a></li>
+      <li class="ital"><a href="contact.htm">Contact us</a></li>
+    </ul>
+  </div>
+
+  <div class="fourth-footer">
+    <ul class="footer-list">
+      <li class="ital"><a href="chemistry.htm">Chemistry resources</a></li>
+      <li><a href="foundations.htm">Foundations of chemistry</a></li>
+      <li><a href="organic.htm">Organic chemistry</a></li>
+      <li><a href="physical.htm">Physical and inorganic chemistry</a></li>
+      <li><a href="gcse.htm">GCSE chemistry</a></li>
+    </ul>
+  </div>
+
+  <div class="fourth-footer">
+    <ul class="footer-list">
+      <li class="ital"><a href="maths.htm">Maths resources</a></li>
+      <li><a href="maths_gcse.htm">GCSE maths</a></li>
+      <li><a href="maths_alevel.htm">A level maths</a></li>
+    </ul>
+  </div>
+
+  <div class="socials">
+    <a href="https://www.facebook.com/Sephton-Tutoring-101273655270668" target="_blank" rel="noopener noreferrer"><img src="f_logo_RGB-White_58.png" alt="Facebook" class="social-icon"></a>
+    <a href="https://www.pinterest.co.uk/kvsephton/_created/" target="_blank" rel="noopener noreferrer"><img src="144dpi_png-badgeRGB-FFFFFF.png" alt="Pinterest" class="social-icon"></a>
+    <a href="https://www.youtube.com/channel/UCWHHxh1XUPbUZBeu8k5veGQ" target="_blank" rel="noopener noreferrer"><img src="youtube_social_circle_white.png" alt="Youtube" class="social-icon"></a>
+    <a href="https://www.instagram.com/sephtontutoring/" target="_blank" rel="noopener noreferrer"><img src="Instagram_logo.png" alt="Instagram" class="social-icon"></a>
+  </div>
+</div>
+    
+<div class="bottom">
+  <p class="copyright">&copy; <script>document.write(new Date().getFullYear())</script> Sephton Tutoring</p>
+</div>
+
+
+
+</body>
+</html>

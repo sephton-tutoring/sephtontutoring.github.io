@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sephton Tutoring: Chemistry and Maths Online Tutoring and Resources</title>
+<meta name="description" content="Chemistry and Maths Online Tutoring and Resources">
+<meta name="keywords" content="Tutoring, Chemistry, Maths, Resources, Dr Sarah Sephton, Sephton, Home">
+<meta name="author" content="Katherine Sephton">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<link rel="stylesheet" type="text/css" href="tutor.css" />
+<link rel="stylesheet" type="text/css" href="videogallery.css" />
+<link rel="stylesheet" type="text/css" href="footer.css" />
+
+<script type="text/javascript" src="navresponsive.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,700&family=Lora:wght@500&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+<style>
+body {margin:0;font-family: 'Lato', sans-serif; font-size: 20px;}
+
+h1 {
+  font-family: 'Lora', serif;
+}
+
+
+.welcome {
+  padding:20px;
+  padding-left:15%;
+  font-size:35px;
+  background-color:#85E1FF;
+  font-weight:700;
+  color:#FFFFFF;
+  text-shadow: 2px 2px 5px rgba(33,33,33,.5);
+}
+
+.text {
+  font-weight:700;
+  font-size: 30px;
+}
+
+#first-text {
+  font-size:35px;
+}
+
+.text-chem {
+  color:#77D6D2;
+}
+
+.text-maths {
+  color:#BB8FCE;
+}
+
+.text-active {
+  color:#6CDBFF;
+}
+
+.diag-welcome {
+  height:60px;
+  background: linear-gradient(to left bottom, #85E1FF 50%, #FFFFFF 50%);
+}
+
+.part {
+  display:block;
+  height:450px;
+}
+
+.slim {
+  width:72%;
+  margin:auto;
+}
+
+.diag-one {
+  height:60px;
+  background-color:#EAF2F8;
+  background: linear-gradient(to right bottom, #FFFFFF 50%, #EAF2F8 50%);
+}
+
+.diag-two {
+  height:60px;
+  background-color:#EAF2F8;
+  background: linear-gradient(to left bottom, #EAF2F8 50%, #FFFFFF 50%);
+}
+
+#second {
+  background-color:#EAF2F8;
+}
+
+.half {
+  float:left;
+  width:50%;
+  height:450px;
+}
+
+.wrapper {
+  position:relative;
+  height:450px;
+}
+
+.main-image {
+  height:100%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.wrapper #img-top {
+  display:none;
+}
+
+.wrapper:hover #img-top {
+  display:inline;
+}
+
+.wrapper:hover #img-bot {
+  display:none;
+}
+
+
+.main-text {
+  height:60%;
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align:center;
+}
+
+.two-text {
+  height:60%;
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -ms-transform: translate(-50%, -60%);
+  transform: translate(-50%, -60%);
+  text-align:center;
+}
+
+@media screen and (max-width:1400px) {
+  .slim {
+    width:100%;
+  }
+}
+
+@media screen and (max-width:1300px) and (min-width:850px) {
+  .main-text {
+    top: 40%;
+  }
+}
+
+@media screen and (max-width:1600px) and (min-width:850px) {
+  .two-text {
+    top: 30%;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  #learn-half {
+    width:100%;
+  }
+
+  #learn-part {
+    height: 800px;
+  }
+}
+
+@media screen and (max-width:850px) {
+  .part {
+    height:1100px;
+  }
+
+  .half {
+    width:100%;
+  }
+
+  #learn-part {
+    height: 1000px;
+  }
+}
+
+@media screen and (max-width:470px) {
+  .main-text {
+    width:80%;
+  }
+  .two-text {
+    width:80%;
+  }
+  .main-image {
+    width:95%;
+    height:auto;
+  }
+  .part {
+    height:900px;
+  }
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="topnav" id="myTopnav">
+    <a href="/" class="logo"><img class="nav-logo" src="STLogo.png" alt="Sephton Tutoring Logo"></a>
+    <a href="javascript:void(0);" style="font-size:20px;" class="icon" onclick="navFunction()">&#9776;</a>
+    <ul id="navbar">
+        <li><a href="/" class="active">HOME</a></li>
+        <li class="dropdown"><a href="resources.htm" class="dropbtn">RESOURCES</a>
+            <ul class="dropdown-content">
+                <li><a href="chemistry.htm">Chemistry</a></li>
+                <li><a href="maths.htm">Maths</a></li>
+            </ul>
+        </li>
+        <li><a href="contact.htm">CONTACT</a></li>
+    </ul>
+</div>
+
+
+
+
+<div class="welcome">
+  <div class="slim">
+    <p>Welcome from Sarah and Katherine</p>
+  </div>
+</div>
+
+<div class="diag-welcome">
+</div>
+
+<div class="part">
+  <div class="slim">
+    <div class="half">
+      <div class="wrapper">
+        <img id="img-bot" class="main-image" src="chemist_2.png" alt="Chemist">
+        <img id="img-top" class="main-image" src="chemist_1.png" alt="Chemist">
+      </div>
+    </div>
+
+    <div class="half">
+      <div class="wrapper">
+        <div class="main-text">
+          <p id="first-text" class="text">Online tutoring in <span class="text-chem">Chemistry</span> and <span class="text-maths">Maths</span> for A level and GCSE</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="diag-one">
+</div>
+
+<div id="second" class="part">
+  <div class="slim">
+    <div class="half">
+      <div class="wrapper">
+        <div class="main-text">
+          <p id="second-text" class="text">We believe learning needs to be <span class="text-chem">active</span>, <span class="text-maths">purposeful</span> and include plenty of<br> <span class="text-active">practice questions</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="half">
+      <div class="wrapper">
+        <img id="img-bot" class="main-image" src="physicist_1.png" alt="Physicist">
+        <img id="img-top" class="main-image" src="physicist_2.png" alt="Physicist">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="diag-two">
+</div>
+
+<div id="learn-part" class="part">
+  <div class="slim">
+    <div id="learn-half" class="half">
+      <div class="wrapper">
+        <img id="img-bot" class="main-image" src="learn_1.png" alt="LEARN">
+        <img id="img-top" class="main-image" src="learn_2.png" alt="LEARN">
+      </div>
+    </div>
+
+    <div id="learn-half" class="half">
+      <div class="wrapper">
+        <div class="two-text">
+          <p class="text">Each one hour lesson includes a <span class="text-active">learning recap</span> and <span class="text-maths">homework</span></p>
+          <p class="text"><span class="text-chem">Lessons from £30</span></p>
+          <p class="text">FREE 30 minute introductory session</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="meet">
+  <h1>Meet the tutors</h1>
+</div>
+
+<div class="part-tutor">
+  <div class="half-tutor">
+    <div class="wrapper-tutor">
+      <div id="left-sarah" class="tutor-card">
+        <img class="tutor-photo" src="sarah.png" alt="Sarah">
+        <ul id="s-bio" class="bio">
+            <li>Chemistry teacher in a UK school</li>
+            <li>15+ years teaching experience including leadership roles (Vice Principal and Head of Science)</li>
+            <li>A level examiner</li>
+            <li>Sixth form leadership responsibility for UCAS (2014-2020)</li>
+            <li>Durham University Chemistry graduate, PhD in Chemistry, PGCE in Science</li>
+        </ul>
+        <a href="https://www.linkedin.com/in/sarah-sephton-a855a4b7/" target="_blank" rel="noopener noreferrer"><img class="linkedin" src="LI-Logo.png" alt="LinkedIn"></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="half-tutor">
+    <div class="wrapper-tutor">
+      <div id="right-katherine" class="tutor-card">
+        <img class="tutor-photo" src="katherine.png" alt="Katherine">
+        <ul id="k-bio" class="bio">
+            <li>Imperial College London Physics graduate</li>
+            <li>A levels: Maths A*, Further Maths A*, Physics A*, Chemistry A*</li>
+            <li>GCSEs: 8 A*s including Maths, English and Sciences, as well as 4 As</li>
+            <li>ActionTutoring volunteer</li>
+        </ul>
+        <a href="https://www.linkedin.com/in/katherine-sephton-010788173/?originalSubdomain=uk" target="_blank" rel="noopener noreferrer"><img class="linkedin" src="LI-Logo.png" alt="LinkedIn"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="videos">
+  <h1>Check out our chemistry videos</h1>
+</div>
+
+
+<div class="section-gallery">
+  <div class="video-gallery">
+    <ul class="list">
+      <li class="item"><a href="https://youtu.be/1fFYLw58ZD8" target="_blank" rel="noopener noreferrer"><img class="thumbnail" src="HydratedSalt.png" alt="Formula of a hydrated salt"></a></li>
+      <li class="item"><a href="https://youtu.be/jQJK0MfSUeI" target="_blank" rel="noopener noreferrer"><img class="thumbnail" src="AlevelPrep1.png" alt="Prep for a level chemistry ep. 1"></a></li>
+      <li class="item"><a href="https://youtu.be/VPt0AK4ocKc" target="_blank" rel="noopener noreferrer"><img class="thumbnail" src="AlevelPrep2.png" alt="Prep for a level chemistry ep. 2"></a></li>
+      <li class="item"><a href="https://youtu.be/Wtdcu9CxM0Q" target="_blank" rel="noopener noreferrer"><img class="thumbnail" src="ExamQkc.png" alt="Kc exam questions"></a></li>
+      <li class="item"><a href="https://youtu.be/bWH_FEhhyJo" target="_blank" rel="noopener noreferrer"><img class="thumbnail" src="ElectronStructure.png" alt="Electron structure"></a></li>
+      <li class="item"><a href="https://youtu.be/tHsgd2iO6Ns" target="_blank" rel="noopener noreferrer"><img class="thumbnail" src="EnthalpyCycleQs.png" alt="Enthalpy cycle questions"></a></li>
+      <li class="item"><a href="https://youtu.be/6jrXeQpWy0g" target="_blank" rel="noopener noreferrer"><img class="thumbnail" src="ReactionsofBenzene.png" alt="Reactions of benzene"></a></li>
+      <li class="item"><a href="https://youtu.be/gpFJM7CsgEw" target="_blank" rel="noopener noreferrer"><img class="thumbnail" src="NMRQuestions.png" alt="NMR questions"></a></li>
+      <li class="item"><a href="https://youtu.be/YV0vgbs7vUk" target="_blank" rel="noopener noreferrer"><img class="thumbnail" src="EnthalpyCycles.png" alt="Enthalpy cycles"></a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="youtube-link">
+  <h3>More at <a class="dr-link" href="https://www.youtube.com/channel/UCWHHxh1XUPbUZBeu8k5veGQ" target="_blank" rel="noopener noreferrer"> Dr Sarah Sephton</a> on <a href="https://www.youtube.com/channel/UCWHHxh1XUPbUZBeu8k5veGQ" target="_blank" rel="noopener noreferrer"><img src="yt_logo_rgb_light.png" alt="Youtube" class="yt-icon"></a></h3>
+</div>
+
+<div class="footer">
+  <div class="fourth-footer">
+    <ul class="footer-list">
+      <li class="footer-logotext"><img class="footer-logo" src="logo_white.png" alt="Logo">SephtonTutoring</li>
+      <li class="footer-contact"><img src="chem_small.png" alt="chemistry" class="contact-icon">sarah@sephtontutoring.com</li>
+      <li class="footer-contact"><img src="maths_small.png" alt="maths" class="contact-icon">katherine@sephtontutoring.com</li>
+      <li class="footer-contact"><img src="phone_white.png" alt="phone" class="contact-icon">+44 (0)7512 803 733</li>
+    </ul>
+  </div>
+
+  <div class="fourth-footer">
+    <ul class="footer-list">
+      <li class="ital"><a href="/">Home</a></li>
+      <li class="ital"><a href="contact.htm">FAQs</a></li>
+      <li class="ital"><a href="contact.htm">Contact us</a></li>
+    </ul>
+  </div>
+
+  <div class="fourth-footer">
+    <ul class="footer-list">
+      <li class="ital"><a href="chemistry.htm">Chemistry resources</a></li>
+      <li><a href="foundations.htm">Foundations of chemistry</a></li>
+      <li><a href="organic.htm">Organic chemistry</a></li>
+      <li><a href="physical.htm">Physical and inorganic chemistry</a></li>
+      <li><a href="gcse.htm">GCSE chemistry</a></li>
+    </ul>
+  </div>
+
+  <div class="fourth-footer">
+    <ul class="footer-list">
+      <li class="ital"><a href="maths.htm">Maths resources</a></li>
+      <li><a href="maths_gcse.htm">GCSE maths</a></li>
+      <li><a href="maths_alevel.htm">A level maths</a></li>
+    </ul>
+  </div>
+
+  <div class="socials">
+    <a href="https://www.facebook.com/Sephton-Tutoring-101273655270668" target="_blank" rel="noopener noreferrer"><img src="f_logo_RGB-White_58.png" alt="Facebook" class="social-icon"></a>
+    <a href="https://www.pinterest.co.uk/kvsephton/_created/" target="_blank" rel="noopener noreferrer"><img src="144dpi_png-badgeRGB-FFFFFF.png" alt="Pinterest" class="social-icon"></a>
+    <a href="https://www.youtube.com/channel/UCWHHxh1XUPbUZBeu8k5veGQ" target="_blank" rel="noopener noreferrer"><img src="youtube_social_circle_white.png" alt="Youtube" class="social-icon"></a>
+    <a href="https://www.instagram.com/sephtontutoring/" target="_blank" rel="noopener noreferrer"><img src="Instagram_logo.png" alt="Instagram" class="social-icon"></a>
+  </div>
+</div>
+    
+<div class="bottom">
+  <p class="copyright">&copy; <script>document.write(new Date().getFullYear())</script> Sephton Tutoring</p>
+</div>
+
+
+
+</body>
+</html>

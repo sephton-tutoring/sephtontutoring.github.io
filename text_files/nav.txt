@@ -1,0 +1,171 @@
+.topnav {
+    background: #ffffff;
+    color: #000000;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    border-top:0px solid #transparent;
+    height:90px;
+    display: block;
+    box-shadow: 0 0 11px rgba(33,33,33,.5);
+}
+
+.topnav .icon {
+  display: none;
+}
+
+#ST-logo {
+  height:100%;
+}
+
+#navbar {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+    padding-top:10px;
+}
+#navbar ul {
+    float: none;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+#navbar li {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display:inline-block;
+    border-left:0px solid #333;
+    border-right:0px solid #333;
+    height: 35px;
+}
+#navbar li a, #navbar li a:link, #navbar li a:visited {
+    color: #000000;
+    display: inline-block;
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    padding: 9px 20px 10px 20px;
+    text-decoration: none;
+}
+#navbar li a:hover, #navbar li a:active {
+    background: #ffffff;
+    color: #CBF2FE;
+    display: block;
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 9px 20px 10px 20px;
+}
+
+#navbar li ul {
+    z-index: 9999;
+    position: absolute;
+    left: -999em;
+    height: auto;
+    width: 100px;
+    margin: 0 auto;
+    padding: 0;
+}
+#navbar li ul a {
+    width: 100px;
+}
+#navbar li ul ul {
+    margin: -25px 0 0 161px;
+}
+#navbar li:hover ul ul, #navbar li:hover ul ul ul, #navbar li.sfhover ul ul, #navbar li.sfhover ul ul ul {
+    left: -999em;
+}
+#navbar li:hover ul, #navbar li li:hover ul, #navbar li li li:hover ul, #navbar li.sfhover ul, #navbar li li.sfhover ul, #navbar li li li.sfhover ul {
+    left: auto;
+}
+#navbar li:hover, #navbar li.sfhover {
+    position: static;
+}
+#navbar li li a, #navbar li li a:link, #navbar li li a:visited {
+    background: #ffffff;
+    width: 150px;
+    color: #000000;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 9px 20px 10px 20px;
+    text-decoration: none;
+    z-index:9999;
+    border-bottom:0px dotted #333;
+}
+#navbar li li a:hover, #navbarli li a:active {
+    background: #ffffff;
+    color: #CBF2FE;
+    display: block;
+    margin: 0 auto;
+    padding: 9px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.logo {
+  width:40%;
+  display: inline-block;
+  text-align:left;
+  padding: 10px 12px 0 15px;
+  font-family: 'Lora', serif;
+  font-size: 30px;
+  text-decoration:none;
+  height:85px;
+}
+
+.nav-logo {
+  height:100%;
+}
+
+.icon {
+  padding: 10px 12px 0 15px;
+  text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 980px) {
+  .logo {
+    width:90%;
+  }
+
+  #navbar li {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+    padding-top:23px;
+  }
+  .topnav.responsive {
+    position: relative;
+    height:130px;
+  }
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive #navbar li {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive #navbar .dropdown-content {display: none;}
+  .topnav.responsive .logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .logo {
+    width:80%;
+    padding-top:3%;
+    padding-bottom:3%;
+  }
+  .nav-logo {
+    width:100%;
+  }
+}
