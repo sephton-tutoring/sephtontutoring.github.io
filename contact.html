@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sephton Tutoring: Chemistry and Maths Online Tutoring and Resources</title>
+<meta name="description" content="Online Tutoring and Resources">
+<meta name="keywords" content="Tutoring, Chemistry, Maths, Resources, Dr Sarah Sephton, Sephton, Home">
+<meta name="author" content="Katherine Sephton">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+
+<link rel="stylesheet" type="text/css" href="style/nav.css" />
+<link rel="stylesheet" type="text/css" href="style/searchbar.css" />
+<link rel="stylesheet" type="text/css" href="style/footer.css" />
+
+<script type="text/javascript" src="scripts/navresponsive.js"></script>
+<script type="text/javascript" src="scripts/searchresponsive.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,700&family=Lora:wght@500&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+<style>
+body {margin:0;font-family: 'Lato', sans-serif; font-size: 20px;}
+
+h1 {font-family: 'Fredoka One', cursive;}
+
+.page-container {
+  width:80%;
+  margin:auto;
+  overflow: auto;
+}
+
+.faq {
+  width:65%;
+  float:left;
+  padding:5%;
+  display:block;
+}
+
+.contact {
+  padding:30px;
+}
+
+.contact-form {
+  width:50%;
+  float:left;
+  display:block;
+}
+
+.contact-list {
+  list-style:none;
+  width:50%;
+  float:right;
+  display:block;
+}
+
+.contact-icon {
+  width:1.7em;
+}
+
+
+#qa {
+  list-style:none;
+}
+
+.question {
+  font-style: italic;
+  padding-top: 2em;
+  padding-bottom: 0.5em;
+}
+
+.contact-form {
+  /* background-color: #f2f2f2; */
+  background-color: #F9F9F9;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 3px 3px 4px rgba(0,0,0,.15);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form input[type="submit"],
+.contact-form input[type="reset"] {
+  /* background-color:#2f5777; */
+  background-color:#6892B2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover,
+.contact-form input[type="reset"]:hover {
+  /* background-color:#2f5777; */
+  background-color:#6892B2;
+}
+
+
+@media screen and (max-width:1000px) and (min-width:850px) {
+  .contact, .faq {
+    padding-left:0;
+  }
+}
+
+@media screen and (max-width:850px) {
+  .contact, .faq, .page-container, .contact-form, .contact-list {
+    width:100%;
+  }
+}
+
+@media screen and (max-width:510px) {
+  .contact, .faq, .contact-form, .contact-list {
+    overflow-wrap: break-word;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<div id="topnav-placeholder"></div>
+<script>
+  fetch('topnav.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('topnav-placeholder').innerHTML = data;
+    })
+    .catch(error => console.error('Error loading topnav:', error));
+</script>
+
+
+<div class="page-container">
+  <div class="contact">
+    <div class="contact-form">
+      <!-- <form action="mailto:your@email.com" method="post" enctype="text/plain"> -->
+      <form action="mailto:sarah@sephtontutoring.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+    
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+    
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+    
+        <input type="submit" value="Send">
+        <input type="reset" value="Clear">
+      </form>
+    </div>
+
+
+    <ul class="contact-list">
+    <h1>Contact us</h1>
+      <li class="question">For Chemistry tuition enquiries:</li>
+      <li><img src="images/icons/mail.png" alt="mail" class="contact-icon"> sarah@sephtontutoring.com</li>
+
+      <li class="question">For Maths tuition enquiries:</li>
+      <li><img src="images/icons/mail.png" alt="mail" class="contact-icon"> katherine@sephtontutoring.com</li>
+
+      <li class="question">Message on Whatsapp:</li>
+      <li><img src="images/icons/WhatsApp_Logo_3.png" alt="Whatsapp" class="contact-icon">+44 (0)7512 803 733</li>
+      <li class="question">Or call:</li>
+
+      <li><img src="images/icons/phone.png" alt="phone" class="contact-icon">+44 (0)7512 803 733</li>
+      <li class="question">Check us out on social media:</li>
+
+      <li class="socials">
+        <a href="https://www.facebook.com/Sephton-Tutoring-101273655270668" target="_blank" rel="noopener noreferrer"><img src="images/icons/f_logo_RGB-Black_58.png" alt="Facebook" class="social-icon"></a>
+        <a href="https://www.pinterest.co.uk/kvsephton/_created/" target="_blank" rel="noopener noreferrer"><img src="images/icons/badgeRGB-000000.png" alt="Pinterest" class="social-icon"></a>
+        <a href="https://www.youtube.com/channel/UCWHHxh1XUPbUZBeu8k5veGQ" target="_blank" rel="noopener noreferrer"><img src="images/icons/youtube_social_circle_dark.png" alt="Youtube" class="social-icon"></a>
+        <a href="https://www.instagram.com/sephtontutoring/" target="_blank" rel="noopener noreferrer"><img src="images/icons/glyph-logo_May2016.png" alt="Instagram" class="social-icon"></a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="faq"></div>
+
+
+  <div class="faq">
+    <h1>FAQs</h1>
+    <ul id="qa">
+      <li class="question">How much does tuition cost?</li>
+      <li class="answer">We can offer a free 30 minute introductory session before the start of paid lessons in order to meet the student, informally assess their needs and ensure that the technology works.<br><br>Please contact us for specific pricing - Chemistry (sarah@sephtontutoring.com) and Maths (katherine@sephtontutoring.com).</li>
+
+      <li class="question">Are the tuition sessions delivered online?</li>
+      <li class="answer">Yes – all the sessions will be delivered online using Google Meet and an interactive whiteboard.</li>
+
+      <li class="question">When and how do I pay for the tuition?</li>
+      <li class="answer">Payment needs to be sent electronically before 9.00 am (UK time) on the day of the lesson.</li>
+
+      <li class="question">What should I do if I need to cancel a tuition session?</li>
+      <li class="answer">If you need to cancel a session due to illness for example, then contact us as soon as possible. Cancellation before 9.00 am (UK time) on the tuition day will not be charged. As we will have reserved your time slot, if you cancel after this time then you will be charged the full amount.</li>
+    </ul>
+  </div>
+</div>
+
+<div id="footer-placeholder"></div>
+
+<script>
+  fetch('footer.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('footer-placeholder').innerHTML = data;
+    })
+    .catch(error => console.error('Error loading footer:', error));
+</script>
+
+
+</body>
+</html>

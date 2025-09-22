@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sephton Tutoring: Chemistry and Maths Online Tutoring and Resources</title>
+<meta name="description" content="Online Tutoring and Resources">
+<meta name="keywords" content="Tutoring, Chemistry, Maths, Resources, Dr Sarah Sephton, Sephton, Home">
+<meta name="author" content="Katherine Sephton">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+
+<link rel="stylesheet" type="text/css" href="style/nav.css" />
+<link rel="stylesheet" type="text/css" href="style/searchbar.css" />
+<link rel="stylesheet" type="text/css" href="style/footer.css" />
+
+<script type="text/javascript" src="scripts/navresponsive.js"></script>
+<script type="text/javascript" src="scripts/searchresponsive.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,700&family=Lora:wght@500&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+<style>
+body {margin:0;font-family: 'Lato', sans-serif; font-size: 20px;}
+
+
+.page-container {
+  width:70%;
+  margin:auto;
+  height:900px;
+}
+
+.subject-tile {
+  width:50%;
+  float:left;
+  padding:5%;
+}
+
+.inside-chem {
+  background-color:#85E1FF;
+  padding:10px;
+  transition:box-shadow .3s;
+  height:500px;
+  padding-top:50px;
+  position: relative;
+}
+
+.inside-maths {
+  background-color:#77D6D2;
+  padding:10px;
+  transition:box-shadow .3s;
+  height:500px;
+  padding-top:50px;
+  position: relative;
+}
+
+.name {
+  color:white;
+  text-align:center;
+}
+
+.subject:link {
+  text-decoration:none;
+}
+
+.inside-chem:hover, .inside-maths:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.5); 
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.answers {
+  text-align:center;
+  padding:15px;
+}
+
+@media screen and (max-width:800px) {
+  .subject-tile, .page-container {
+    width:100%;
+  }
+
+  .page-container {
+    height:1200px;
+  }
+
+  .center {
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
+
+
+</style>
+
+</head>
+<body>
+
+
+<div id="topnav-placeholder"></div>
+<script>
+  fetch('topnav.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('topnav-placeholder').innerHTML = data;
+    })
+    .catch(error => console.error('Error loading topnav:', error));
+</script>
+
+<div class="page-container">
+  <a class="subject" href="chemistry.html">
+    <div class="subject-tile">
+      <div class="inside-chem">
+        <img class="center" src="images/subjects/chem.png" alt="conical flask">
+      </div>
+    </div>
+  </a>
+
+  <a class="subject" href="maths.html">
+    <div class="subject-tile">
+      <div class="inside-maths">
+        <img class="center" src="images/subjects/maths.png" alt="maths symbols">
+      </div>
+    </div>
+  </a>
+
+<h3 class="answers">For more resources, visit <a href="https://www.tes.com/teaching-resources/shop/ksephton3" target="_blank" rel="noopener noreferrer" style="text-decoration:none;">KSephton3's Shop</a> and <a href="https://www.tes.com/teaching-resources/shop/sarahsephton7" target="_blank" rel="noopener noreferrer" style="text-decoration:none;">Dr Sarah Sephton's Shop</a> on TES</h3>
+</div>
+
+
+<div id="footer-placeholder"></div>
+
+<script>
+  fetch('footer.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('footer-placeholder').innerHTML = data;
+    })
+    .catch(error => console.error('Error loading footer:', error));
+</script>
+
+</body>
+</html>

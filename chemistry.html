@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sephton Tutoring: Chemistry and Maths Online Tutoring and Resources</title>
+<meta name="description" content="Online Tutoring and Resources">
+<meta name="keywords" content="Tutoring, Chemistry, Maths, Resources, Dr Sarah Sephton, Sephton, Home">
+<meta name="author" content="Katherine Sephton">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+
+<link rel="stylesheet" type="text/css" href="style/nav.css" />
+<link rel="stylesheet" type="text/css" href="style/searchbar.css" />
+<link rel="stylesheet" type="text/css" href="style/video.css" />
+<link rel="stylesheet" type="text/css" href="style/footer.css" />
+
+<script type="text/javascript" src="scripts/navresponsive.js"></script>
+<script type="text/javascript" src="scripts/search_chem.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,700&family=Lora:wght@500&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+<style>
+body {margin:0;font-family: 'Lato', sans-serif; font-size: 20px;}
+
+
+.page-container {
+  width:70%;
+  margin:auto;
+  display:block;
+  padding-top:35px;
+}
+
+.alevel {
+  display:block;
+  height:500px;
+}
+
+.gcse {
+  display:block;
+  margin:auto;
+  height:500px;
+  padding:50px;
+}
+
+.subject-tile {
+  margin:auto;
+  width:33%;
+  float:left;
+  padding:10px;
+}
+
+.gcse-tile {
+  margin:auto;
+  width:100%;
+  float:left;
+  padding:10px;
+}
+
+.inside {
+  padding:10px;
+  transition:box-shadow .3s;
+  height:500px;
+  padding-top:50px;
+  position: relative;
+}
+
+#inside-foundations {
+  background-color:#77D6D2;
+}
+
+#inside-organic {
+  background-color:#85E1FF;
+}
+
+#inside-physical {
+  background-color:#BB8FCE;
+}
+
+.inside-gcse {
+  background-color:#CBCBCB;
+  padding:10px;
+  transition:box-shadow .3s;
+  height:300px;
+  padding-top:50px;
+  position: relative;
+}
+
+.subject:link {
+  text-decoration:none;
+}
+
+.inside:hover, .inside-gcse:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.5); 
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.center-gcse {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 75%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#myUL {
+  display:none;
+}
+
+
+
+@media screen and (max-width:850px) {
+  .page-container {
+    height:2000px;
+  }
+
+  .image, .subject-tile, .gcse-tile {
+    width:100%;
+  }
+
+  .gcse {
+    padding:0px;
+  }
+}
+
+</style>
+
+</head>
+<body>
+
+
+<div id="topnav-placeholder"></div>
+<script>
+  fetch('topnav.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('topnav-placeholder').innerHTML = data;
+    })
+    .catch(error => console.error('Error loading topnav:', error));
+</script>
+
+
+
+
+<div id="page" class="page-container">
+<input type="text" id="myInput" onkeyup="searchChem()" placeholder="Search...">
+
+
+<div id="area-tiles">
+  <div class="alevel">
+    <a class="subject" href="foundations.html">
+      <div class="subject-tile">
+        <div id="inside-foundations" class="inside">
+          <img class="center" src="images/subjects/foundations.png" alt="titration">
+        </div>
+      </div>
+    </a>
+
+    <a class="subject" href="organic.html">
+      <div class="subject-tile">
+        <div id="inside-organic" class="inside">
+          <img class="center" src="images/subjects/organic.png" alt="reflux">
+        </div>
+      </div>
+    </a>
+
+    <a class="subject" href="physical.html">
+      <div class="subject-tile">
+        <div id="inside-physical" class="inside">
+          <img class="center" src="images/subjects/physical.png" alt="gas cylinder">
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="gcse">
+    <a class="subject" href="gcse.html">
+      <div class="gcse-tile">
+        <div class="inside-gcse">
+          <img class="center-gcse" src="images/subjects/gcse.png" alt="test tubes">
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+
+
+<ul id="myUL">
+  <li>
+    <div id="Electron structure" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/bWH_FEhhyJo" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      <div class="image">
+        <div class="worksheet-wrapper">
+          <a class="worksheet-link" href="https://drive.google.com/file/d/1j4KcuuJVf8has24Jvn6vJwG8zK533Uu7/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img class="halfimage" src="Electron_structure_words.png" alt="Electron structure"></a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="Radical substitution" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/-KwTyEFWqNw" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      <div class="image">
+        <div class="worksheet-wrapper">
+          
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="Reactions of benzene" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/6jrXeQpWy0g" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      <div class="image">
+        <div class="worksheet-wrapper">
+          <a class="worksheet-link" href="https://drive.google.com/file/d/11o1ZCO48o8tNRhTGzAG00wvxlZwVMZW6/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img class="halfimage" src="Reactions_of_benzene_words.png" alt="Reactions of benzene"></a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="Structure of benzene" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/7UUdi7r2vsY" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      <div class="image">
+        <div class="worksheet-wrapper">
+          <a class="worksheet-link" href="https://drive.google.com/file/d/1reMv2Ia7MrFuqaEtdTBIh7JHtRFLrDr3/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img class="halfimage" src="Structure_of_benzene_words.png" alt="Structure of benzene"></a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="Directing groups on a benzene ring" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/xjx5goDFDoY" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      <div class="image">
+        <div class="worksheet-wrapper">
+          <a class="worksheet-link" href="https://drive.google.com/file/d/1Hfr2OQBDLdAd9wOBiNo68KmLK3ywwAPH/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img class="halfimage" src="Directing_groups_on_a_benzene_ring_words.png" alt="Directing groups on a benzene ring"></a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="Phenol" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/-615lqCkT2w" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      <div class="image">
+        <div class="worksheet-wrapper">
+          <a class="worksheet-link" href="https://drive.google.com/file/d/16mHIIzZeLZhYUVYEm_mCWjxeVPypi52w/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img class="halfimage" src="Phenol_words.png" alt="Phenol"></a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="NMR questions" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/gpFJM7CsgEw" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      <div class="image">
+        <div class="worksheet-wrapper">
+
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="Enthalpy cycle questions" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/tHsgd2iO6Ns" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      <div class="image">
+        <div class="worksheet-wrapper">
+          <a class="worksheet-link" href="https://drive.google.com/file/d/1WBSxRHbiXetV1s_eqhuV_O6-eMc9zd6o/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img class="halfimage" src="Enthalpy_cycle_questions_words.png" alt="Enthalpy cycle questions"></a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="Enthalpy practice questions" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/2hiDYC4YAAc" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      <div class="image">
+        <div class="worksheet-wrapper">
+          <a class="worksheet-link" href="https://drive.google.com/file/d/1CFALEtD7dtK_NGElVUDir5srcace01cv/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img class="halfimage" src="Enthalpy_practice_questions_words.png" alt="Enthalpy practice questions"></a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="Writing redox equations" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/IlxaQQ3qMXQ" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      <div class="image">
+        <div class="worksheet-wrapper">
+          
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="Exam questions redox titration" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/-yODimJfaS8" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      <div class="image">
+        <div class="worksheet-wrapper">
+          
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="Testing for ions" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/s-lQ_K12KFQ" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      <div class="image">
+        <div class="worksheet-wrapper">
+
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="5 STEPS TO PREP FOR A LEVEL CHEMISTRY | Episode 1: Writing chemical formulae" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/jQJK0MfSUeI" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      <div class="image">
+        <div class="worksheet-wrapper">
+          <a class="worksheet-link" href="https://drive.google.com/file/d/1ubvW5WVpeug_wn9CJ_bQgYQQQ6r2XTYc/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img class="halfimage" src="Writing_chemical_formulae_words.png" alt="Writing chemical formulae"></a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="5 STEPS TO PREP FOR A LEVEL CHEMISTRY | Episode 2: Writing chemical equations" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/VPt0AK4ocKc" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      <div class="image">
+        <div class="worksheet-wrapper">
+          <a class="worksheet-link" href="https://drive.google.com/file/d/1APdcK6Lr5U3WdTchEyyJGLftQgFwCoLw/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img class="halfimage" src="Writing_chemical_equations_words.png" alt="Writing chemical equations"></a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="5 STEPS TO PREP FOR A LEVEL CHEMISTRY | Episode 3: Moles" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/wBNOtk2A92Q" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      <div class="image">
+        <div class="worksheet-wrapper">
+          <a class="worksheet-link" href="https://drive.google.com/file/d/1BwztLWwAFewtZcaiT7tIKEfNIVL9QRgN/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img class="halfimage" src="Moles_words.png" alt="Moles"></a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="5 STEPS TO PREP FOR A LEVEL CHEMISTRY | Episode 4: Bonding and structure" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/-upJMWsHduU" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      <div class="image">
+        <div class="worksheet-wrapper">
+          <a class="worksheet-link" href="https://drive.google.com/file/d/1JnYsWDltul_IpENFGlkMQq0E_iwurvZ2/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img class="halfimage" src="Bonding_and_structure_words.png" alt="Bonding and structure"></a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="Kc exam questions" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/Wtdcu9CxM0Q" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      <div class="image">
+        <div class="worksheet-wrapper">
+          
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="Alkenes - properties" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/2onxBw9nJIY" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      <div class="image">
+        <div class="worksheet-wrapper">
+
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="Alkenes - reactions" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/eTFu7qG0Y9I" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      <div class="image">
+        <div class="worksheet-wrapper">
+
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="5 STEPS TO PREP FOR A LEVEL CHEMISTRY | Episode 5: Acids, alkalis, bases and salts" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/m3yCr3obYG4" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      <div class="image">
+        <div class="worksheet-wrapper">
+          <a class="worksheet-link" href=https://drive.google.com/file/d/17Re_FO1-A6JgSIzO_g4asexMC6ZulKM-/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img class="halfimage" src="Acids_alkalis_bases_salts.png" alt="Acids, alkalis, bases and salts"></a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="NMR spectroscopy" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/YkUIgJxoaAQ" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      <div class="image">
+        <div class="worksheet-wrapper">
+
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="Arrhenius equation" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/Bp1aZO0DUUY" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      <div class="image">
+        <div class="worksheet-wrapper">
+          
+        </div>
+      </div>
+    </div>
+  </li>
+
+
+
+
+
+
+
+
+  <li>
+    <div id="What is a mole?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/pUMYa-PfMCk" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+      
+  <li>
+    <div id="What is an intermolecular force?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/5wtxBnpwjC4" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="What is a metallic bond?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/SGIIVwWkaKs" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>      
+    <div id="What is a redox reaction?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/3k_sh2rkYDQ" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="What is a electrolysis" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/1V5HW5ENgCI" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>      
+    <div id="What is an ionic bond?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/KFGoXJqoBuo" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="What is a salt?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/IJrbzg0mMDM" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+      
+  <li>
+    <div id="What is a chemical structure?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/Bh_NJgoyllg" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="What is an ionic equation?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/Wv2Dc5O4zls" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+  
+  <li>    
+    <div id="What is a pH?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/l7fZU_gT-Dg" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="What is an acid, an alkali and a base?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/rKi1NzcmTYk" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>      
+    <div id="What is a covalent bond?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/aJKVBdrw40I" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="What is a neutralisation reaction?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/ZVxJWIoCpx8" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>      
+    <div id="What is an alkane and alkene?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/Net3lukoMaU" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="What is an atom and an ion?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/kS_6UZRoXm4" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+   
+  <li>   
+    <div id="What is the history of the Earth’s atmosphere?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/4ogOOUs9gpY" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="What is cracking?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/PIfYeGLE26o" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+  
+  <li>    
+    <div id="What is combustion?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/94sJDhJIrVA" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="How is equilibrium?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/qCoSVvzpvUg" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>      
+    <div id="How is relative atomic mass calculated?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/dAnth4Ne6_8" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="How is the percentage by mass calculated?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/HMnk9OcgjWU" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>      
+    <div id="How are chemical formulae worked out?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/3Vunjt6d99Y" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="How is relative formula mass calculated?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/_FAExqrtbgo" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>      
+    <div id="How is a reaction profile drawn?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/lsstFVZcJZg" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div id="How has the periodic table developed?" class="section">
+      <div class="image">
+        <div class="video-wrapper">
+          <iframe frameborder="0" width=100% height=100% src="https://www.youtube.com/embed/gdmqW9jxsrI" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </li>
+
+
+
+</ul>
+
+</div>
+
+
+<div id="footer-placeholder"></div>
+
+<script>
+  fetch('footer.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('footer-placeholder').innerHTML = data;
+    })
+    .catch(error => console.error('Error loading footer:', error));
+</script>
+
+
+</body>
+</html>

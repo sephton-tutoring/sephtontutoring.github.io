@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sephton Tutoring: Chemistry and Maths Online Tutoring and Resources</title>
+<meta name="description" content="Chemistry and Maths Online Tutoring and Resources">
+<meta name="keywords" content="Tutoring, Chemistry, Maths, Resources, Dr Sarah Sephton, Sephton, Home">
+<meta name="author" content="Katherine Sephton">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+
+<link rel="stylesheet" type="text/css" href="style/nav.css" />
+<!-- <link rel="stylesheet" type="text/css" href="tutor.css" /> -->
+<link rel="stylesheet" type="text/css" href="style/gallery.css" />
+<link rel="stylesheet" type="text/css" href="style/footer.css" />
+
+<script type="text/javascript" src="scripts/navresponsive.js"></script>
+<script src="scripts/scroll.js" defer></script>
+<script src="scripts/scroll_video.js" defer></script>
+<script src="scripts/posts.js" defer></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,700&family=Lora:wght@500&display=swap" rel="stylesheet"> -->
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin:0;font-family: 'Lato', sans-serif; font-size: 20px;
+  background-color: #F9F9F9;
+}
+
+h1, h2 {font-family: 'Fredoka One', cursive;}
+
+.welcome {
+  padding:100px;
+  padding-left:15%;
+  font-size:35px;
+  background-color:#85E1FF;
+  /* font-weight:700; */
+  /* font-weight:100; */
+  color:#FFFFFF;
+  text-shadow: 3px 3px 4px rgba(0,0,0,.15);
+  font-size: 1.5em;
+}
+
+
+.text {
+  font-weight:700;
+  font-size: 30px;
+}
+
+#first-text {
+  font-size:35px;
+}
+
+.blank {
+  /* height:100px; */
+  padding: 3%;
+  text-align: center;
+  overflow: auto;
+  color: #6892B2;
+  /* padding-top: 2%; */
+}
+
+.part {
+  display:block;
+  height:700px;
+}
+
+.slim {
+  width:100%;
+  /* width:72%; */
+  margin:auto;
+}
+
+.half {
+  float:left;
+  width:50%;
+  /* height:450px; */
+  overflow: auto;
+}
+
+.main-image {
+  height:100%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.wrapper {
+  position:relative;
+  height:650px;
+}
+
+.wrapper #img-top {
+  display:none;
+}
+
+.wrapper:hover #img-top {
+  display:inline;
+}
+
+.wrapper:hover #img-bot {
+  display:none;
+}
+
+.middle {
+  width:80%;
+  /* overflow:auto; */
+  padding:10px;
+}
+
+#left.middle {
+  float:right;
+}
+
+#right.middle {
+  float:left;
+}
+
+#text-left.half {
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-right:1%;
+}
+
+#text-right.half {
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-left:1%;
+}
+
+.tutor-box {
+  padding: 10px;
+  background-color: #FFFFFF;
+  overflow:auto;
+}
+
+#left.tutor-box {
+  border-radius: 0 8px 8px 0;
+  box-shadow: 3px 3px 4px rgba(0,0,0,.15);
+}
+
+#right.tutor-box {
+  border-radius: 8px 0 0 8px;
+  box-shadow: -3px 3px 4px rgba(0,0,0,.15);
+}
+
+.tutor-photo {
+  width:55%;
+  /* padding-bottom:30px; */
+  padding-left:30%;
+}
+
+.text-post {
+  background: #fff;
+  /* border: 1px solid #ddd; */
+  border-radius: 2px;
+  padding: 12px 16px;
+  margin: 10px 0;
+  box-shadow: 3px 3px 4px rgba(0,0,0,.15);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.main-image {
+  width: 50%;   /* scales to 50% of parent container */
+  height: auto; /* keeps aspect ratio */
+  display: block;
+  margin: 0 auto; /* centers inside parent */
+}
+
+.linkedin {
+  width: 15%;
+  padding-left:20px;
+}
+
+#posts.wrapper {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.posts-title {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.videos {
+  padding-top: 100px;
+}
+
+@media screen and (max-width:1400px) {
+  .slim, .middle {
+    width:100%;
+  }
+}
+
+@media screen and (max-width:1300px) and (min-width:850px) {
+  .main-text {
+    top: 40%;
+  }
+}
+
+@media screen and (max-width:850px) {
+  .part {
+    height:1100px;
+  }
+
+  .half {
+    width:100%;
+  }
+}
+
+@media screen and (max-width:470px) {
+  .main-text {
+    width:80%;
+  }
+  .main-image {
+    width:95%;
+    height:auto;
+  }
+  .part {
+    height:900px;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<div id="topnav-placeholder"></div>
+<script>
+  fetch('topnav.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('topnav-placeholder').innerHTML = data;
+    })
+    .catch(error => console.error('Error loading topnav:', error));
+</script>
+
+
+<div class="welcome">
+  <div class="slim">
+    <p>Welcome from Sarah and Katherine</p>
+    <!-- <p   style="color: #6892B2;">We believe learning needs to be active, purposeful and include plenty of practice questions</p> -->
+  </div>
+</div>
+
+
+
+<div class="scroll-container">
+  <div class="scroll-left"></div>
+    <ul class="list">
+      <li class="review-item">
+        <a href="https://share.google/GkXVf4dJFamiGBGJJ"  target="_blank" rel="noopener noreferrer" class="review-link">
+          <div class="stars-row">
+            <img class="stars" src="images/home_page/review_stars.png" alt="Five stars">
+            <span class="review-name">Thelga A.</span>
+          </div>
+          <span class="review-text">Sarah is an excellent tutor. She helped my daughter with her GCSE chemistry preparation for Year 11 exams - with a solid result! I highly recommend her.</span>
+        </a>
+      </li>
+      <li class="review-item">
+        <a href="https://share.google/bg6UIHNJYzrv9yvyh" target="_blank" rel="noopener noreferrer" class="review-link">
+          <div class="stars-row">
+            <img class="stars" src="images/home_page/review_stars.png" alt="Five stars">
+            <span class="review-name">S M.</span>
+          </div>
+          <span class="review-text">Sarah helped my daughter with physical chemistry during her A level. Her lessons were relaxed and well structured which meant my daughter understood how to tackle questions she had previously found difficult. She definitely gave her lots of confidence and the tools to get an excellent grade.</span>
+        </a>
+      </li>
+      <li class="review-item">
+        <a href="https://share.google/eTtvMHEXMwZFdHZcS" target="_blank" rel="noopener noreferrer" class="review-link">
+          <div class="stars-row">
+            <img class="stars" src="images/home_page/review_stars.png" alt="Five stars">
+            <span class="review-name">Sue O.</span>
+          </div>
+          <span class="review-text">Can't praise Sarah enough for her approach to teaching A level Chemistry, and in building confidence to help G step up to the A grade she needed.</span>
+        </a>
+      </li>
+      <li class="review-item">
+        <a href="https://share.google/RUSOQ0HFHHoVl2uzL" target="_blank" rel="noopener noreferrer" class="review-link">
+          <div class="stars-row">
+            <img class="stars" src="images/home_page/review_stars.png" alt="Five stars">
+            <span class="review-name">Priya P.</span>
+          </div>
+          <span class="review-text">Sarah at Sephton’s tutor’s is a very experienced, organised and focused tutor which I highly recommend. Sarah has given my daughter the confidence to excel.</span>
+        </a>
+      </li>
+      <li class="review-item">
+        <a href="https://share.google/nVhF2nGvR8fPi7bQU" target="_blank" rel="noopener noreferrer" class="review-link">
+          <div class="stars-row">
+            <img class="stars" src="images/home_page/review_stars.png" alt="Five stars">
+            <span class="review-name">Ritu S.</span>
+          </div>
+          <span class="review-text"></span>
+        </a>
+      </li>
+    </ul>
+  <div class="scroll-right"></div>
+</div>
+
+<div class="blank">
+  <h2>We believe learning needs to be active, purposeful and include plenty of practice questions</h2>  
+</div>
+
+<div class="part">
+  <div class="slim">
+    <div class="half" id="text-left">
+      <!-- <div class="wrapper"> -->
+        <div class="tutor-box" id="left">
+          <div class="middle" id="left">
+            <h2>Chemistry Tutor</h2>
+            <img class="tutor-photo" src="images/home_page/sarah.png" alt="Sarah">
+            <ul><!--</ul> id="s-bio" class="bio"> -->
+              <li>Chemistry teacher in a UK school</li>
+              <li>20+ years teaching experience including leadership roles (Vice Principal and Head of Science)</li>
+              <li>A level examiner</li>
+              <li>Sixth form leadership responsibility for UCAS (2014-2020)</li>
+              <li>PGCE in Science, PhD in Chemistry and Durham University Chemistry graduate</li>
+            </ul>
+            <a href="https://www.linkedin.com/in/sarah-sephton-a855a4b7/" target="_blank" rel="noopener noreferrer"><img class="linkedin" src="LI-Logo.png" alt="LinkedIn"></a>
+          </div>
+        </div>
+      <!-- </div> -->
+    </div>
+
+    <div class="half" id="image-half">
+      <div class="wrapper">
+        <div class="middle" id="right">
+          <img id="img-bot" class="main-image" src="images/home_page/chemist_2.png" alt="Chemist">
+          <img id="img-top" class="main-image" src="images/home_page/chemist_1.png" alt="Chemist">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="part">
+  <div class="slim">
+    <div class="half" id="image-half">
+      <div class="wrapper">
+        <div class="middle" id="left">
+          <img id="img-bot" class="main-image" src="images/home_page/physicist_1.png" alt="Physicist">
+          <img id="img-top" class="main-image" src="images/home_page/physicist_2.png" alt="Physicist">
+        </div>
+      </div>
+    </div>
+    
+    <div class="half" id="text-right">
+      <div class="wrapper">
+        <div class="tutor-box" id="right">
+          <div class="middle" id="right">
+            <h2>Maths Tutor</h2>
+            <img class="tutor-photo" src="images/home_page/katherine.png" alt="Katherine">
+            <ul><!--</ul> id="k-bio" class="bio"> -->
+              <li>PhD Researcher at Imperial College London</li>
+              <li>Imperial College London Physics graduate</li>
+              <li>A levels: Maths A*, Further Maths A*, Physics A*, Chemistry A*</li>
+              <li>GCSEs: 8 A*s including Maths, English and Sciences</li>
+              <li>ActionTutoring volunteer</li>
+            </ul>
+            <a href="https://www.linkedin.com/in/katherine-sephton-010788173/?originalSubdomain=uk" target="_blank" rel="noopener noreferrer"><img class="linkedin" src="LI-Logo.png" alt="LinkedIn"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="part" id="posts">
+  <div class="slim" id="posts">
+    <h2 class="posts-title">Posts:</h2>
+    <div class="half" id="text-half">
+      <div class="wrapper" id="posts">
+        <div class="main-text" id="posts">
+          <div id="text-posts"></div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="half" id="image-half">
+      <div class="wrapper" id="posts">
+        <div class="middle">
+          <img id="img-bot" class="main-image" src="images/home_page/learn_1.png" alt="LEARN">
+          <img id="img-top" class="main-image" src="images/home_page/learn_2.png" alt="LEARN">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="videos">
+  <h1>Check out our chemistry videos</h1>
+</div>
+
+<div class="scroll-container">
+  <div class="scroll-left"></div>
+    <ul class="list-vid">
+      <li class="item"><a href="https://youtu.be/1fFYLw58ZD8" target="_blank" rel="noopener noreferrer"><img class="thumbnail" src="HydratedSalt.png" alt="Formula of a hydrated salt"></a></li>
+      <li class="item"><a href="https://youtu.be/jQJK0MfSUeI" target="_blank" rel="noopener noreferrer"><img class="thumbnail" src="AlevelPrep1.png" alt="Prep for a level chemistry ep. 1"></a></li>
+      <li class="item"><a href="https://youtu.be/VPt0AK4ocKc" target="_blank" rel="noopener noreferrer"><img class="thumbnail" src="AlevelPrep2.png" alt="Prep for a level chemistry ep. 2"></a></li>
+      <li class="item"><a href="https://youtu.be/Wtdcu9CxM0Q" target="_blank" rel="noopener noreferrer"><img class="thumbnail" src="ExamQkc.png" alt="Kc exam questions"></a></li>
+      <li class="item"><a href="https://youtu.be/bWH_FEhhyJo" target="_blank" rel="noopener noreferrer"><img class="thumbnail" src="ElectronStructure.png" alt="Electron structure"></a></li>
+      <li class="item"><a href="https://youtu.be/tHsgd2iO6Ns" target="_blank" rel="noopener noreferrer"><img class="thumbnail" src="EnthalpyCycleQs.png" alt="Enthalpy cycle questions"></a></li>
+      <li class="item"><a href="https://youtu.be/6jrXeQpWy0g" target="_blank" rel="noopener noreferrer"><img class="thumbnail" src="ReactionsofBenzene.png" alt="Reactions of benzene"></a></li>
+      <li class="item"><a href="https://youtu.be/gpFJM7CsgEw" target="_blank" rel="noopener noreferrer"><img class="thumbnail" src="NMRQuestions.png" alt="NMR questions"></a></li>
+      <li class="item"><a href="https://youtu.be/YV0vgbs7vUk" target="_blank" rel="noopener noreferrer"><img class="thumbnail" src="EnthalpyCycles.png" alt="Enthalpy cycles"></a></li>
+    </ul>
+  <div class="scroll-right"></div>
+</div>
+
+<div class="youtube-link">
+  <h3>More at <a class="dr-link" href="https://www.youtube.com/channel/UCWHHxh1XUPbUZBeu8k5veGQ" target="_blank" rel="noopener noreferrer"> Dr Sarah Sephton</a> on <a href="https://www.youtube.com/channel/UCWHHxh1XUPbUZBeu8k5veGQ" target="_blank" rel="noopener noreferrer"><img src="images/icons/yt_logo_rgb_light.png" alt="Youtube" class="yt-icon"></a></h3>
+</div>
+
+
+
+
+<div id="footer-placeholder"></div>
+
+<script>
+  fetch('footer.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('footer-placeholder').innerHTML = data;
+    })
+    .catch(error => console.error('Error loading footer:', error));
+</script>
+
+</body>
+</html>
